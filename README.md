@@ -1,6 +1,6 @@
 UESTC Bachelor's Thesis with XeLaTeX
 ================================
-adapted by Richard (Fangjian) Guo <richardkwo at gmail.com>.
+adapted by Richard (Fangjian) Guo <<richardkwo at gmail.com>>.
 
 此模板基于 Shi Fujun <shifujun at foxmail.com> 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis).
 
