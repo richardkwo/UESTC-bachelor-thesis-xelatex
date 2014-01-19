@@ -1,8 +1,8 @@
 UESTC Bachelor's Thesis with XeLaTeX
 ================================
-adapted by Richard (Fangjian) Guo <richardkwo@gmail>.
+adapted by Richard (Fangjian) Guo <richardkwo at gmail.com>.
 
-此模板基于 Shi Fujun <shifujun@foxmail.com> 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis).
+此模板基于 Shi Fujun <shifujun at foxmail.com> 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis).
 
 我在2013年夏天写毕业论文的时候做了一些改进，这里是改进后的版本。主要改进的地方包括：
 
@@ -15,26 +15,26 @@ adapted by Richard (Fangjian) Guo <richardkwo@gmail>.
 文件说明
 -------------------------
 
-├── uestcthesis.bst    参考文献格式定义
-├── uestcthesis.cls    documentclass 定义
-├── Ch1_Introduction.tex    样例 Thesis_Guo2013 的第一章 *
-├── Ch2_DivergingMomentAsymptotics.tex    样例 Thesis_Guo2013 的第二章 *
-├── Ch3_MemoryConstraints.tex    样例 Thesis_Guo2013 的第三章 *
-├── Ch4_Conclusion.tex    样例 Thesis_Guo2013 的第四章 *
-├── Thesis_Guo2013.tex    样例 Thesis_Guo2013 的主文件 *
-├── contents/    
-│   ├── Cabstract.tex    中文摘要 *
-│   ├── Eabstract.tex    英文摘要 *
-│   ├── acknowledgements.tex    致谢 *
-│   ├── appendix.tex    附录 *
-│   ├── original.pdf    译文原文（附在本科论文结尾） *
-│   ├── publications.bib    个人文章发表情况（可不用）
-│   ├── reference.bib    参考文献数据库 *
-│   ├── titlepage.tex    标题页 *
-│   └── translation.pdf    译文（附在本科论文结尾） *
-├── figures/    插图目录 *
-├── logo.pdf    校徽
-├── logo.tex    校徽tex定义
+    ├── uestcthesis.bst    参考文献格式定义
+    ├── uestcthesis.cls    documentclass 定义
+    ├── Ch1_Introduction.tex    样例 Thesis_Guo2013 的第一章 *
+    ├── Ch2_DivergingMomentAsymptotics.tex    样例 Thesis_Guo2013 的第二章 *
+    ├── Ch3_MemoryConstraints.tex    样例 Thesis_Guo2013 的第三章 *
+    ├── Ch4_Conclusion.tex    样例 Thesis_Guo2013 的第四章 *
+    ├── Thesis_Guo2013.tex    样例 Thesis_Guo2013 的主文件 *
+    ├── contents/    
+    │   ├── Cabstract.tex    中文摘要 *
+    │   ├── Eabstract.tex    英文摘要 *
+    │   ├── acknowledgements.tex    致谢 *
+    │   ├── appendix.tex    附录 *
+    │   ├── original.pdf    译文原文（附在本科论文结尾） *
+    │   ├── publications.bib    个人文章发表情况（可不用）
+    │   ├── reference.bib    参考文献数据库 *
+    │   ├── titlepage.tex    标题页 *
+    │   └── translation.pdf    译文（附在本科论文结尾） *
+    ├── figures/    插图目录 *
+    ├── logo.pdf    校徽
+    ├── logo.tex    校徽tex定义
 
 其中 * 表明需要用户修改的文件。
 
