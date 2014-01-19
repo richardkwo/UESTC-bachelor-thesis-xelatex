@@ -1,0 +1,41 @@
+% !TEX TS-program = xelatex
+% !Mode:: "TeX:UTF-8"
+
+\documentclass[bachelor, english]{uestcthesis}
+
+% math 
+\usepackage{bm}	% bold math
+
+% math font
+%\usepackage{mathptmx}	% times font
+\usepackage{standalone}
+
+
+% def, theorems, etc
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[chapter] % reset theorem numbering for each chapter
+\newtheorem{lemma}{Lemma}[chapter]
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}[chapter] 
+\newtheorem{exmp}{Example}[chapter] 
+
+% math shorthands
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\newcommand{\Var}{\operatornamewithlimits{Var}}
+\newcommand{\E}{\operatornamewithlimits{E}}
+
+% here it goes
+
+\begin{document}
+\include{Ch1_Introduction}
+\include{Ch2_DivergingMomentAsymptotics}
+\include{Ch3_MemoryConstraints}
+\include{Ch4_Conclusion}
+
+
+
+
+\end{document}
+

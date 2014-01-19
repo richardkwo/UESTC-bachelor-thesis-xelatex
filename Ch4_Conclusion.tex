@@ -1,0 +1,22 @@
+% !TEX TS-program = xelatex
+% !TEX root = Thesis_Guo2013.tex
+% !Mode:: "TeX:UTF-8"
+
+\chapter{Conclusion and Future Work}
+\section{Summary of contributions}
+The major methodological contribution of this work is the \textit{Equiprobable Partition Method} (EPM) presented in this thesis. We have showed that, in the convergent moment case, EPM is accurate when the number of partitions extends to infinity. And we have demonstrated that, in the divergent moment case, how EPM can be used as a method to effectively obtain the asymptotics of moments as a function of the sample size. Specifically, an EPM estimator for diverging sample moments consists two terms --- the leading order term characterizes the speed of polynomial divergence and the remaining term describes the details when the divergence is taken away. This is useful in treating statistics made up of several moments: by comparing the leading orders, we can preserve those with highest diverging orders only and neglecting others in large sample size; after canceling moments with the same leading order, we can learn the behavior of the $ \frac{\infty}{\infty} $-form statistics by referring to the remaining terms.   
+
+As another major contribution of this thesis, we pointed out a special statistical property of power-law distributions that has not been presented before. With a permutational approach, by using both EPM for the divergent moment case and the traditional probabilistic method for the convergent moment case, we have derived the non-trivial bounds for the 1st-order autocorrelation (memory) of power-law series. The bounds are narrower than the natural bounds and are dependent on the power-law exponent, which suggests that the space for interdependence among series allowed by power-law is smaller than that allowed by Gaussian or uniform distributions and this effect is even related to the scaling exponent. This discovery also points out the risk of comparing the memory effect of different systems with the same quantity. Although this is a common practice, it might be unfair since the interdependence space allowed by different systems may be different. 
+
+\section{Future work}
+For the \textit{Equiprobable Partition Method}, we still need to prove the accuracy of EPM estimators for diverging sample moments, or to construct the bounds for the errors. Ideally, I feel this can be done by proving an asymptotic convergence property in parallel to what we have done for the convergent moment case. 
+
+To be specific, supposing the EPM estimator for the diverging sample moment $ \mu_k' $ is $ n^{\gamma} g(n) $, we need to prove that, for any $ \epsilon>0 $, it holds that 
+
+\begin{equation}
+\lim_{n \rightarrow \infty} P \left ( \big | \frac{1}{n^{\gamma+1}} \sum_{i=1}^n x_i^k - g(n) \big | \geq \epsilon \right ) = 0.
+\end{equation}
+
+Another direction of future work would be a further analysis of the interdependence structure of the time series with heavy-tailed distributions. We need a deeper understanding for the interdependence structure beyond the simplest characterization given by the 1st-order autocorrelation, and for a wider family distributions more than power-law. Meanwhile, it would be useful to develop quantities for describing interdependence that does not cause marginal-specific bias. 
+
+
