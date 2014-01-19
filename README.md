@@ -64,121 +64,26 @@ xelatex，一般的tex发行中包含，请确认安装了中文字体。参考
         xelatex Thesis_Guo2013.tex
         xelatex Thesis_Guo2013.tex
 
+    检查 Thesis_Guo2013.pdf 是否看起来正确。
+
+3.  修改 文件说明 里面打 * 的部分，再按照上面的命令编译，就可以排版出自己的论文啦。
+
+注意
+
+* 可以复制一份 Thesis_Guo2013.tex 并重命名，作为你的毕业论文的主文件。
+
+* 样例的四个章节各自写成了单独的文件， \include 到了主文件中。由于毕业论文的长度，推荐这种写法。章节的文件名可以任意。
+
+* 样例把所有的插图都放在 figures/ 里，插图命令需要指示这个目录。你也可以放在别的地方。figures/ 里面已有的那些文件是样例所用的，可以删去。但是，不要删去根目录下的 logo.pdf。
+
+* contents/ 目录下的文件名是固定的，不要自行修改。
+
+* 参考文献用 bib 格式放在 contents/publications.bib 里面。
+
+* 本科毕业设计要求在最后附上一篇英文文献及其翻译。请将 contents/original.pdf 替换为英文原文，将 contents/translation.pdf 替换为译文。
+
+* 编译可能产生很多 warning ，在不影响结果的情况下可以忽略。
+
+* 如果用于排版中文正文的毕业论文，可能需要手动修改 uestcthesis.cls (sorry...)。I guess you can figure it out and do it by yourself! :)
 
 
-The above header should be an H2 tag. Now, for a list of fruits:
-
-* Red Apples
-* Purple Grapes
-* Green Kiwifruits
-
-Let's get crazy:
-
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
-
-What about some code **in** a list? That's insane, right?
-
-1. In Ruby you can map like this:
-
-        ['a', 'b'].map { |x| x.uppercase }
-
-2. In Rails, you can do a shortcut:
-
-        ['a', 'b'].map(&:uppercase)
-
-Some people seem to like definition lists
-
-<dl>
-  <dt>Lower cost</dt>
-  <dd>The new version of this product costs significantly less than the previous one!</dd>
-  <dt>Easier to use</dt>
-  <dd>We've changed the product so that it's much easier to use!</dd>
-</dl>
-
-I am a robot
-------------
-
-Maybe you want to print `robot` to the console 1000 times. Why not?
-
-    def robot_invasion
-      puts("robot " * 1000)
-    end
-
-You see, that was formatted as code because it's been indented by four spaces.
-
-How about we throw some angle braces and ampersands in there?
-
-    <div class="footer">
-        &copy; 2004 Foo Corporation
-    </div>
-
-Set in stone
-------------
-
-Preformatted blocks are useful for ASCII art:
-
-<pre>
-             ,-. 
-    ,     ,-.   ,-. 
-   / \   (   )-(   ) 
-   \ |  ,.>-(   )-< 
-    \|,' (   )-(   ) 
-     Y ___`-'   `-' 
-     |/__/   `-' 
-     | 
-     | 
-     |    -hrr- 
-  ___|_____________ 
-</pre>
-
-Playing the blame game
-----------------------
-
-If you need to blame someone, the best way to do so is by quoting them:
-
-> I, at any rate, am convinced that He does not throw dice.
-
-Or perhaps someone a little less eloquent:
-
-> I wish you'd have given me this written question ahead of time so I
-> could plan for it... I'm sure something will pop into my head here in
-> the midst of this press conference, with all the pressure of trying to
-> come up with answer, but it hadn't yet...
->
-> I don't want to sound like
-> I have made no mistakes. I'm confident I have. I just haven't - you
-> just put me under the spot here, and maybe I'm not as quick on my feet
-> as I should be in coming up with one.
-
-Table for two
--------------
-
-<table>
-  <tr>
-    <th>ID</th><th>Name</th><th>Rank</th>
-  </tr>
-  <tr>
-    <td>1</td><td>Tom Preston-Werner</td><td>Awesome</td>
-  </tr>
-  <tr>
-    <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
-  </tr>
-</table>
-
-Crazy linking action
---------------------
-
-I get 10 times more traffic from [Google] [1] than from
-[Yahoo] [2] or [MSN] [3].
-
-  [1]: http://google.com/        "Google"
-  [2]: http://search.yahoo.com/  "Yahoo Search"
-  [3]: http://search.msn.com/    "MSN Search"
