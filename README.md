@@ -1,10 +1,10 @@
 UESTC Bachelor's Thesis with XeLaTeX
 ================================
-Adapted by Richard (Fangjian) Guo (richardkwo at gmail.com).
+Adapted by Richard (Fangjian) Guo (https://github.com/richardkwo).
 
-Distributed uner LPPL http://www.latex-project.org/lppl.txt.
+Distributed uner LPPL (http://www.latex-project.org/lppl.txt).
 
-此模板基于 Shi Fujun (shifujun at foxmail.com) 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis).
+此模板基于 Shi Fujun (shifujun at foxmail.com) 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis)，在此向原作者表达谢意。
 
 我在2013年夏天写毕业论文的时候做了一些改进，这里是改进后的版本。主要改进的地方包括：
 
@@ -13,7 +13,7 @@ Distributed uner LPPL http://www.latex-project.org/lppl.txt.
 * 可以原生地使用 xelatex 和 bibtex 编译。抛弃了命令行脚本。
 * 替换了一些过时的宏包，如kmath
 * 用natbib生成参考文献，并修改了引用样式
-* 由于相隔快一年，我实际上也忘了我做了什么....
+* **由于相隔快一年，我实际上也忘了我做了什么....**
 
 文件说明
 -------------------------
@@ -56,7 +56,7 @@ xelatex，一般的tex发行中包含，请确认安装了中文字体。参考
 
         git clone https://github.com/richardkwo/UESTC-bachelor-thesis-xelatex.git
 
-2.  确保你可以正确编译样例论文 Thesis_Guo2013.tex
+2.  确保你可以正确编译样例论文 Thesis_Guo2013.tex。Thesis_Guo2013.pdf 是我得到的结果，你可以先移去它。
     编译命令（一般的tex编辑器会提供这些命令）
 
         xelatex Thesis_Guo2013.tex
@@ -64,17 +64,17 @@ xelatex，一般的tex发行中包含，请确认安装了中文字体。参考
         xelatex Thesis_Guo2013.tex
         xelatex Thesis_Guo2013.tex
 
-    检查 Thesis_Guo2013.pdf 是否看起来正确。
+    两次以上的编译才能保证交叉引用正确。检查 Thesis_Guo2013.pdf 是否看起来正确。
 
-3.  修改 文件说明 里面打 * 的部分，再按照上面的命令编译，就可以排版出自己的论文啦。
+3.  修改 **文件说明** 里面打 * 的部分，再按照上面的命令编译，就可以排版出自己的论文啦。
 
-注意
+**注意**
 
 * 可以复制一份 Thesis_Guo2013.tex 并重命名，作为你的毕业论文的主文件。
 
 * 样例的四个章节各自写成了单独的文件， \include 到了主文件中。由于毕业论文的长度，推荐这种写法。章节的文件名可以任意。
 
-* 样例把所有的插图都放在 figures/ 里，插图命令需要指示这个目录。你也可以放在别的地方。figures/ 里面已有的那些文件是样例所用的，可以删去。但是，不要删去根目录下的 logo.pdf。
+* 样例把所有的插图都放在 figures/ 里，插图命令需要指示这个目录。你也可以放在别的地方。figures/ 里面已有的那些文件是样例所用的，可以删去。但是，不要删去根目录下的 logo.pdf，因为是我大成电校徽啊！
 
 * contents/ 目录下的文件名是固定的，不要自行修改。
 
