@@ -1,8 +1,10 @@
 UESTC Bachelor's Thesis with XeLaTeX
 ================================
-adapted by Richard (Fangjian) Guo <<richardkwo at gmail.com>>.
+Adapted by Richard (Fangjian) Guo (richardkwo at gmail.com).
 
-此模板基于 Shi Fujun <shifujun at foxmail.com> 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis).
+Distributed uner LPPL http://www.latex-project.org/lppl.txt.
+
+此模板基于 Shi Fujun (shifujun at foxmail.com) 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis).
 
 我在2013年夏天写毕业论文的时候做了一些改进，这里是改进后的版本。主要改进的地方包括：
 
@@ -11,6 +13,7 @@ adapted by Richard (Fangjian) Guo <<richardkwo at gmail.com>>.
 * 可以原生地使用 xelatex 和 bibtex 编译。抛弃了命令行脚本。
 * 替换了一些过时的宏包，如kmath
 * 用natbib生成参考文献，并修改了引用样式
+* 由于相隔快一年，我实际上也忘了我做了什么....
 
 文件说明
 -------------------------
@@ -38,8 +41,30 @@ adapted by Richard (Fangjian) Guo <<richardkwo at gmail.com>>.
 
 其中 * 表明需要用户修改的文件。
 
+依赖环境
+------------------------
+bibtex，一般的tex发行中包含。
+
+xelatex，一般的tex发行中包含，请确认安装了中文字体。参考
+
+* http://linux-wiki.cn/wiki/zh-hans/LaTeX%E4%B8%AD%E6%96%87%E6%8E%92%E7%89%88%EF%BC%88%E4%BD%BF%E7%94%A8XeTeX%EF%BC%89
+
 使用方法
 ------------------------
+
+1.  将此 repo 克隆或下载到本地。可以使用命令
+
+    git clone https://github.com/richardkwo/UESTC-bachelor-thesis-xelatex.git
+
+2.  确保你可以正确编译样例论文 Thesis_Guo2013.tex
+    编译命令（一般的tex编辑器会提供这些命令）
+
+    xelatex Thesis_Guo2013.tex
+    bibtex Thesis_Guo2013.tex
+    xelatex Thesis_Guo2013.tex
+    xelatex Thesis_Guo2013.tex
+
+
 
 The above header should be an H2 tag. Now, for a list of fruits:
 
