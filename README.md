@@ -43,11 +43,14 @@ Distributed uner LPPL (http://www.latex-project.org/lppl.txt ).
 
 依赖环境
 ------------------------
+win/linux/osx 在安装tex发行后都可以顺利编译。
+
 bibtex，一般的tex发行中包含。
 
 xelatex，一般的tex发行中包含，请确认安装了中文字体。参考
 
 * http://linux-wiki.cn/wiki/zh-hans/LaTeX%E4%B8%AD%E6%96%87%E6%8E%92%E7%89%88%EF%BC%88%E4%BD%BF%E7%94%A8XeTeX%EF%BC%89
+
 
 使用方法
 ------------------------
@@ -57,7 +60,7 @@ xelatex，一般的tex发行中包含，请确认安装了中文字体。参考
         git clone https://github.com/richardkwo/UESTC-bachelor-thesis-xelatex.git
 
 2.  确保你可以正确编译样例论文 Thesis_Guo2013.tex。Thesis_Guo2013.pdf 是我得到的结果，你可以先移去它。
-    编译命令（一般的tex编辑器会提供这些命令）
+    运行编译命令（一般的tex编辑器会提供这些命令）
 
         xelatex Thesis_Guo2013.tex
         bibtex Thesis_Guo2013.tex
