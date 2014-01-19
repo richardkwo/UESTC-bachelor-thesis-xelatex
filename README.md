@@ -1,44 +1,44 @@
-GitHub Flavored Markdown
+UESTC Bachelor's Thesis with XeLaTeX
 ================================
+adapted by Richard (Fangjian) Guo <richardkwo@gmail>.
 
-*View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
+此模板基于 Shi Fujun <shifujun@foxmail.com> 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis).
 
-Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:
+我在2013年夏天写毕业论文的时候做了一些改进，这里是改进后的版本。主要改进的地方包括：
 
-Roses are red
-Violets are blue
+* 使用 XeLaTeX 来排版中文。停止使用过时的CJK解决方案。
+* 对原模板本科论文的格式做了调整。（我自己的论文正文是英文，因此模板用来写英文的本科毕业论文是没有问题的，中文没有测试过）
+* 可以原生地使用 xelatex 和 bibtex 编译。抛弃了命令行脚本。
+* 替换了一些过时的宏包，如kmath
+* 用natbib生成参考文献，并修改了引用样式
 
-The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
-
-Roses are red  
-Violets are blue
-
-Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
-
-A bit of the GitHub spice
+文件说明
 -------------------------
 
-In addition to the changes in the previous section, certain references are auto-linked:
+├── uestcthesis.bst    参考文献格式定义
+├── uestcthesis.cls    documentclass 定义
+├── Ch1_Introduction.tex    样例 Thesis_Guo2013 的第一章 *
+├── Ch2_DivergingMomentAsymptotics.tex    样例 Thesis_Guo2013 的第二章 *
+├── Ch3_MemoryConstraints.tex    样例 Thesis_Guo2013 的第三章 *
+├── Ch4_Conclusion.tex    样例 Thesis_Guo2013 的第四章 *
+├── Thesis_Guo2013.tex    样例 Thesis_Guo2013 的主文件 *
+├── contents/    
+│   ├── Cabstract.tex    中文摘要 *
+│   ├── Eabstract.tex    英文摘要 *
+│   ├── acknowledgements.tex    致谢 *
+│   ├── appendix.tex    附录 *
+│   ├── original.pdf    译文原文（附在本科论文结尾） *
+│   ├── publications.bib    个人文章发表情况（可不用）
+│   ├── reference.bib    参考文献数据库 *
+│   ├── titlepage.tex    标题页 *
+│   └── translation.pdf    译文（附在本科论文结尾） *
+├── figures/    插图目录 *
+├── logo.pdf    校徽
+├── logo.tex    校徽tex定义
 
-* SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
-* User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
-* User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
-* \#Num: #1
-* User/#Num: mojombo#1
-* User/Project#Num: mojombo/god#1
+其中 * 表明需要用户修改的文件。
 
-These are dangerous goodies though, and we need to make sure email addresses don't get mangled:
-
-My email addy is tom@github.com.
-
-Math is hard, let's go shopping
--------------------------------
-
-In first grade I learned that 5 > 3 and 2 < 7. Maybe some arrows. 1 -> 2 -> 3. 9 <- 8 <- 7.
-
-Triangles man! a^2 + b^2 = c^2
-
-We all like making lists
+使用方法
 ------------------------
 
 The above header should be an H2 tag. Now, for a list of fruits:
