@@ -1,15 +1,15 @@
 UESTC Bachelor's Thesis with XeLaTeX
 ================================
-Adapted by Richard (Fangjian) Guo (https://github.com/richardkwo).
+Adapted by Richard (Fangjian) Guo ( https://github.com/richardkwo ), graduate of UESTC.
 
-Distributed uner LPPL (http://www.latex-project.org/lppl.txt).
+Distributed uner LPPL ( http://www.latex-project.org/lppl.txt ).
 
-此模板基于 Shi Fujun (shifujun at foxmail.com) 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis)，在此向原作者表达谢意。
+此模板基于 Shi Fujun (shifujun at foxmail.com) 的 UESTCthesis 模板 ( https://github.com/shifujun/UESTCthesis )，在此向原作者表达谢意。
 
 我在2013年夏天写毕业论文的时候做了一些改进，这里是改进后的版本。主要改进的地方包括：
 
 * 使用 XeLaTeX 来排版中文。停止使用过时的CJK解决方案。
-* 对原模板本科论文的格式做了调整。（我自己的论文正文是英文，因此模板用来写英文的本科毕业论文是没有问题的，中文没有测试过）
+* 对原模板本科论文的格式做了调整。（我自己的论文正文是英文，因此模板用来**写英文的本科毕业论文是没有问题的，中文没有测试过**）
 * 可以原生地使用 xelatex 和 bibtex 编译。抛弃了命令行脚本。
 * 替换了一些过时的宏包，如kmath
 * 用natbib生成参考文献，并修改了引用样式
