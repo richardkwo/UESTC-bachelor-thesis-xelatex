@@ -54,15 +54,15 @@ xelatex，一般的tex发行中包含，请确认安装了中文字体。参考
 
 1.  将此 repo 克隆或下载到本地。可以使用命令
 
-    git clone https://github.com/richardkwo/UESTC-bachelor-thesis-xelatex.git
+        git clone https://github.com/richardkwo/UESTC-bachelor-thesis-xelatex.git
 
 2.  确保你可以正确编译样例论文 Thesis_Guo2013.tex
     编译命令（一般的tex编辑器会提供这些命令）
 
-    xelatex Thesis_Guo2013.tex
-    bibtex Thesis_Guo2013.tex
-    xelatex Thesis_Guo2013.tex
-    xelatex Thesis_Guo2013.tex
+        xelatex Thesis_Guo2013.tex
+        bibtex Thesis_Guo2013.tex
+        xelatex Thesis_Guo2013.tex
+        xelatex Thesis_Guo2013.tex
 
 
 
