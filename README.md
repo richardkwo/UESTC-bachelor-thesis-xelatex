@@ -2,9 +2,9 @@ UESTC Bachelor's Thesis with XeLaTeX
 ================================
 Adapted by Richard (Fangjian) Guo ( https://github.com/richardkwo ), graduate of UESTC.
 
-Distributed uner LPPL ( http://www.latex-project.org/lppl.txt ).
+Distributed uner LPPL (http://www.latex-project.org/lppl.txt ).
 
-此模板基于 Shi Fujun (shifujun at foxmail.com) 的 UESTCthesis 模板 ( https://github.com/shifujun/UESTCthesis )，在此向原作者表达谢意。
+此模板基于 Shi Fujun (shifujun at foxmail.com) 的 UESTCthesis 模板 (https://github.com/shifujun/UESTCthesis )，在此向原作者表达谢意。
 
 我在2013年夏天写毕业论文的时候做了一些改进，这里是改进后的版本。主要改进的地方包括：
 
