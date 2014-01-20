@@ -63,7 +63,7 @@ xelatex，一般的tex发行中包含，请确认安装了中文字体。参考
     运行编译命令（一般的tex编辑器会提供这些命令）
 
         xelatex Thesis_Guo2013.tex
-        bibtex Thesis_Guo2013.tex
+        bibtex Thesis_Guo2013
         xelatex Thesis_Guo2013.tex
         xelatex Thesis_Guo2013.tex
 
